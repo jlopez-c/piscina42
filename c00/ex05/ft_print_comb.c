@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jlopez-c <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/04 14:39:45 by jlopez-c          #+#    #+#             */
-/*   Updated: 2019/10/06 17:58:07 by jlopez-c         ###   ########.fr       */
+/*   Created: 2019/10/06 18:19:54 by jlopez-c          #+#    #+#             */
+/*   Updated: 2019/10/06 18:25:27 by jlopez-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,20 +17,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_print_reverse_alphabet(void)
+void	ft_print_comb(void)
 {
-	char c;
 
-	c = 'z';
-	while (c >= 'a')
-	{
-		ft_putchar(c);
-		c--;
-	}
-}
-
-int		main(void)
-{
-	ft_print_reverse_alphabet();
-	return (0);
 }
