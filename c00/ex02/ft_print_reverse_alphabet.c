@@ -6,7 +6,7 @@
 /*   By: jlopez-c <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 14:39:45 by jlopez-c          #+#    #+#             */
-/*   Updated: 2019/10/06 17:58:07 by jlopez-c         ###   ########.fr       */
+/*   Updated: 2019/10/09 14:04:12 by jlopez-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,4 @@ void	ft_print_reverse_alphabet(void)
 		ft_putchar(c);
 		c--;
 	}
-}
-
-int		main(void)
-{
-	ft_print_reverse_alphabet();
-	return (0);
 }

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jlopez-c <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/04 14:23:21 by jlopez-c          #+#    #+#             */
-/*   Updated: 2019/10/04 14:35:27 by jlopez-c         ###   ########.fr       */
+/*   Created: 2019/10/04 13:48:28 by jlopez-c          #+#    #+#             */
+/*   Updated: 2019/10/09 14:18:26 by jlopez-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,4 @@ void	ft_print_alphabet(void)
 		ft_putchar(c);
 		c++;
 	}
-}
-
-int		main(void)
-{
-	ft_print_alphabet();
-	return (0);
 }
