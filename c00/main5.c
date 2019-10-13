@@ -1,25 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_comb.c                                    :+:      :+:    :+:   */
+/*   main5.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jlopez-c <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/06 18:19:54 by jlopez-c          #+#    #+#             */
-/*   Updated: 2019/10/09 14:50:31 by jlopez-c         ###   ########.fr       */
+/*   Created: 2019/10/13 19:37:11 by jlopez-c          #+#    #+#             */
+/*   Updated: 2019/10/13 19:41:16 by jlopez-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_print_comb(void);
 
-void	ft_putchar(char c)
+int		main(void)
 {
-	write(1, &c, 1);
-}
-
-
-
-void	ft_print_comb(void)
-{
-
+	ft_print_comb();
+	return (0);
 }
